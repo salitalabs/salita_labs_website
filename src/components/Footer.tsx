@@ -22,11 +22,11 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground text-right">
             Our approach is backed by industry research:
             <br />
-            <a href="#" className="hover:text-foreground transition-colors">Invoca 2024 Home Services Study</a>
+            <a href="https://www.invoca.com/reports/the-invoca-call-conversion-benchmarks-report-for-the-home-services-industry-2025?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Home Services Call Conversion Benchmarks Report 2025</a>
             {" • "}
-            <a href="#" className="hover:text-foreground transition-colors">Harvard Business Review - Customer Reviews & Firm Performance</a>
+            <a href="https://www.servicetitan.com/press/residential-industry-report-2025?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">New ServiceTitan Research: 63% of Residential Services Businesses Are Growing</a>
             {" • "}
-            <a href="#" className="hover:text-foreground transition-colors">ServiceTitan 2023 Industry Benchmarks</a>
+            <a href="https://hbr.org/2018/02/study-replying-to-customer-reviews-results-in-better-ratings?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Harvard Business Review</a>
           </p>
         </div>
       </div>

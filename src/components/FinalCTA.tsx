@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
   const handleBookCall = () => {
-    window.open("https://calendly.com", "_blank");
+    window.open("https://calendar.app.google/MKT2UYkeq2pxfJCC9", "_blank");
   };
 
   return (
@@ -14,7 +14,7 @@ const FinalCTA = () => {
           You Didn't Start Your Business to Chase Voicemails
         </h2>
         
-        <p className="text-xl mb-12 leading-relaxed">
+        <p className="text-xl mb-12 leading-relaxed text-primary-foreground/90">
           No sales pitch. No demo deck. Just a straight conversation about getting back to the work that matters.
         </p>
         
@@ -23,15 +23,15 @@ const FinalCTA = () => {
           <ul className="space-y-4 text-left max-w-2xl mx-auto">
             <li className="flex items-start gap-3">
               <span className="text-secondary text-xl font-bold">→</span>
-              <span>Where you're losing calls and revenue right now</span>
+              <span className="text-primary-foreground/90">Where you're losing calls and revenue right now</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-secondary text-xl font-bold">→</span>
-              <span>Whether automation makes sense for your shop</span>
+              <span className="text-primary-foreground/90">Whether automation makes sense for your shop</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-secondary text-xl font-bold">→</span>
-              <span>What working together actually looks like</span>
+              <span className="text-primary-foreground/90">What working together actually looks like</span>
             </li>
           </ul>
         </div>
@@ -48,7 +48,7 @@ const FinalCTA = () => {
           Book a Call
         </Button>
         
-        <p className="text-sm opacity-80">
+        <p className="text-sm text-primary-foreground/70">
           Currently serving HVAC, Plumbing & Electrical contractors across NJ, NY, and CT
         </p>
       </div>

@@ -36,19 +36,26 @@ const HowWeWork = () => {
                 <h3 className="text-2xl font-bold mb-4 text-card-foreground">{step.title}</h3>
                 <p className="text-muted-foreground leading-relaxed">{step.description}</p>
               </div>
-              
-              {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-border transform -translate-y-1/2 z-0">
-                  <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-4 border-t-transparent border-b-4 border-b-transparent border-l-4 border-l-border" />
-                </div>
-              )}
             </div>
           ))}
         </div>
         
-        <p className="text-center text-lg text-foreground font-medium max-w-3xl mx-auto">
-          All powered by automation you never see or manage. You just wake up to more booked jobs and happier customers.
-        </p>
+        <div className="mt-16 max-w-4xl mx-auto">
+          <div className="bg-gradient-to-r from-secondary/10 via-accent/10 to-secondary/10 border-2 border-secondary/30 rounded-xl p-8 text-center relative overflow-hidden">
+            {/* Subtle glow effect */}
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-secondary/5 to-transparent animate-pulse" />
+            
+            <div className="relative z-10">
+              <div className="text-4xl mb-4">✨</div>
+              <p className="text-xl md:text-2xl font-bold text-foreground mb-2">
+                All powered by automation you never see or manage.
+              </p>
+              <p className="text-lg text-muted-foreground">
+                You just wake up to more booked jobs and happier customers.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

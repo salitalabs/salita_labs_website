@@ -16,7 +16,7 @@ const differentiators = [
 const Credibility = () => {
   return (
     <section className="py-24 px-6 bg-primary text-primary-foreground relative overflow-hidden">
-      <div className="absolute inset-0 opacity-5 bg-[linear-gradient(45deg,transparent_25%,currentColor_25%,currentColor_50%,transparent_50%,transparent_75%,currentColor_75%,currentColor)] bg-[length:20px_20px]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.1),transparent_50%)]" />
       
       <div className="max-w-5xl mx-auto relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">

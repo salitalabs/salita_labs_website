@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
   const handleBookCall = () => {
-    window.open("https://calendar.app.google/MKT2UYkeq2pxfJCC9", "_blank");
+    window.open("https://calendar.app.google/oV2hyoQq68w34hyq8", "_blank");
   };
 
   return (

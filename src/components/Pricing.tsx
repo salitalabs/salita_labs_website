@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button";
 
 const Pricing = () => {
-  const scrollToFinalCTA = () => {
-    const ctaSection = document.getElementById("final-cta");
-    ctaSection?.scrollIntoView({ behavior: "smooth" });
+  const handleBookCall = () => {
+    window.open("https://calendar.app.google/oV2hyoQq68w34hyq8", "_blank");
   };
 
   return (
@@ -129,7 +128,7 @@ const Pricing = () => {
         <div className="text-center">
           <Button 
             size="lg" 
-            onClick={scrollToFinalCTA}
+            onClick={handleBookCall}
             className="bg-secondary hover:bg-secondary/90 text-secondary-foreground shadow-button text-lg px-8 py-6 h-auto"
           >
             Book a 30-Minute Conversation

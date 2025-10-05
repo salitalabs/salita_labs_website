@@ -13,8 +13,8 @@ const Index = () => {
       <HowWeWork />
       <Credibility />
       <Pricing />
-      <FAQ />
       <FinalCTA />
+      <FAQ />
       <Footer />
     </main>
   );

@@ -1,0 +1,59 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Main content area -->
+  <rect x="60" y="60" width="1080" height="510" rx="20" fill="white" fill-opacity="0.95"/>
+  
+  <!-- Logo area -->
+  <circle cx="150" cy="150" r="40" fill="#1e40af"/>
+  <path d="M130 130C130 125.582 133.582 122 138 122H142C146.418 122 150 125.582 150 130V150C150 154.418 146.418 158 142 158H138C133.582 158 130 154.418 130 150V130Z" fill="white"/>
+  <rect x="138" y="142" width="4" height="8" rx="1" fill="white"/>
+  <path d="M140 150L140 160" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M136 152L144 152" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Company name -->
+  <text x="220" y="140" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#1e40af">Salita Labs</text>
+  
+  <!-- Main headline -->
+  <text x="150" y="220" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#1e3a8a">Operations Partner for</text>
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#1e3a8a">Home Service Contractors</text>
+  
+  <!-- Subtitle -->
+  <text x="150" y="340" font-family="Arial, sans-serif" font-size="24" fill="#4b5563">We handle your phones, follow-ups &amp; reviews</text>
+  <text x="150" y="370" font-family="Arial, sans-serif" font-size="24" fill="#4b5563">so you can focus on the work that matters</text>
+  
+  <!-- Features -->
+  <text x="150" y="430" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">✓ 24/7 Phone Coverage  ✓ Automated Follow-ups  ✓ Review Management</text>
+  
+  <!-- Right side illustration -->
+  <g transform="translate(800, 100)">
+    <!-- Phone icon -->
+    <rect x="0" y="0" width="80" height="120" rx="12" fill="#1e40af"/>
+    <rect x="10" y="20" width="60" height="80" rx="4" fill="white"/>
+    <circle cx="40" cy="110" r="8" fill="#1e40af"/>
+    
+    <!-- Gear icon -->
+    <circle cx="200" cy="60" r="30" fill="none" stroke="#1e40af" stroke-width="4"/>
+    <circle cx="200" cy="60" r="15" fill="#1e40af"/>
+    <path d="M185 60L215 60" stroke="#1e40af" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200 45L200 75" stroke="#1e40af" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Connection lines -->
+    <path d="M80 60L180 60" stroke="#1e40af" stroke-width="3" stroke-linecap="round" stroke-dasharray="5,5"/>
+    
+    <!-- Automation dots -->
+    <circle cx="250" cy="200" r="4" fill="#1e40af"/>
+    <circle cx="270" cy="220" r="4" fill="#1e40af"/>
+    <circle cx="250" cy="240" r="4" fill="#1e40af"/>
+  </g>
+  
+  <!-- Bottom tagline -->
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Your invisible operations team without the payroll</text>
+</svg>

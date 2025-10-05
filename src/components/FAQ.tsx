@@ -19,7 +19,7 @@ const faqs = [
     answer: "Setup takes ~2 hours of interviews so we learn your business. After that, about 15 minutes per week reviewing performance. We handle everything else.",
   },
   {
-    question: "Do my CSRs already handle follow-ups—why do I need this?",
+    question: "My CSRs already handle follow-ups, why would I pay for something else?",
     answer: "They do, but not with precision timing at 9pm on Saturday. We systematize the cadence so nothing slips through—especially after-hours and weekends when most calls are missed.",
   },
   {

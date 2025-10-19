@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 248 100% 99%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    /* Salita Labs Navy - Trust & Stability */
+    --primary: 215 45% 18%;
+    --primary-foreground: 210 40% 98%;
+
+    /* Action Blue */
+    --secondary: 217 91% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Orange Accent - Service Energy */
+    --accent: 22 93% 53%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(215 45% 18%), hsl(217 91% 60%));
+    --gradient-subtle: linear-gradient(180deg, hsl(248 100% 99%), hsl(210 40% 98%));
+    
+    /* Shadows */
+    --shadow-card: 0 1px 3px 0 hsl(215 25% 15% / 0.05), 0 1px 2px -1px hsl(215 25% 15% / 0.05);
+    --shadow-card-hover: 0 10px 25px -5px hsl(215 25% 15% / 0.1), 0 8px 10px -6px hsl(215 25% 15% / 0.05);
+    --shadow-button: 0 4px 6px -1px hsl(217 91% 60% / 0.15);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

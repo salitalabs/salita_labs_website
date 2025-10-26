@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="py-12 px-6 bg-background border-t border-border">
@@ -9,12 +11,12 @@ const Footer = () => {
           </div>
           
           <div className="flex gap-6">
-            <a 
-              href="#" 
+            <Link 
+              to="/privacy" 
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               Privacy Policy
-            </a>
+            </Link>
           </div>
         </div>
         
